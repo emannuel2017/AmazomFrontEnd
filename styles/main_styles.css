@@ -265,7 +265,7 @@ section
 {
 	width: 187px;
 	height: 66px;
-	background: #ff4200;
+	background: #3500b3;
 	overflow: hidden;
 }
 .button a
@@ -361,7 +361,7 @@ section
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
-	color: #171717;
+	color: #3500b3;
 	text-transform: uppercase;
 }
 .logo span:first-of-type
@@ -369,12 +369,12 @@ section
 	position: absolute;
 	top: 0;
 	left: -5px;
-	color: #ff4200;
+	color: #6200ee;
 	z-index: -1;
 }
 .logo span:last-of-type
 {
-	color: #ff4200;
+	color: #3500b3;
 }
 
 /*********************************
@@ -419,7 +419,7 @@ section
 }
 .nav_items li.active
 {
-	background: #ff4200;
+	background: #3700b3;
 }
 .nav_items li.active a
 {
@@ -427,7 +427,7 @@ section
 }
 .nav_items li:hover
 {
-	background: #ff4200;
+	background: #6200ee;
 }
 .nav_items li:hover a
 {
