@@ -126,7 +126,7 @@ p a:hover::after
 ::selection
 {
 	background: #fde0db;
-	color: #ff4200;
+	color: #3500b3;
 }
 p::selection
 {
@@ -185,7 +185,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #db2818;
 }
 section
 {
@@ -717,7 +717,7 @@ section
 {
 	font-weight: 300;
 	line-height: 1.15;
-	color: #FFFFFF;
+	color: #1b1818bf;
 }
 .main_slider_content h1 span
 {
@@ -764,12 +764,12 @@ section
 }
 .main_slider_custom_dots li.active
 {
-	background: #ff4200;
+	background: #3500b3;
 }
 .main_slider_custom_dot.active,
 .main_slider_custom_dot:hover
 {
-	background: #ff4200;
+	background:#6200ee;
 }
 
 /*********************************
@@ -799,12 +799,12 @@ section
 }
 .main_slider_nav i
 {
-	color: #FFFFFF;
+	color:#fcc5bc ;
 	font-size: 18px;
 }
 .main_slider_nav:hover i
 {
-	color: #ff4200;
+	color:#6200ee;
 }
 
 /*********************************
@@ -818,7 +818,7 @@ section
 	right: 0px;
 	width: auto;
 	height: 74px;
-	background: #ff4200;
+	background: #3500b3;
 	z-index: 11;
 	padding-right: 38px;
 	padding-left: 45px;
@@ -921,7 +921,7 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	color: #ff0000;
+	color: #3600b3c4;
 	opacity: 0.32;
 }
 .section_title h2::before
@@ -996,13 +996,16 @@ section
 	padding-top: 195px;
 	z-index: 2;
 }
+
+
 .section_title_dark h2
 {
 	color: #1c1c1c;
 }
 .section_title_dark h2::before
 {
-	background: #ff4200;
+	background: 
+	4200;
 }
 .testimonials_container
 {
@@ -1063,7 +1066,7 @@ section
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 0.2em;
-	color: #1c1c1c;
+	color: whitesmoke;
 	text-transform: uppercase;
 }
 .test_title
@@ -1099,8 +1102,13 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	width: 94px;
-	height: 94px;
+	width: 100%;
+	height: 58%;
+	background: #3600b393;
+	
+}.test_user_pic:hover{
+transition: 900ms;
+background-color: #3600b3d0;
 }
 
 /*********************************
@@ -1123,7 +1131,7 @@ section
 }
 .test_slider_nav:hover
 {
-	background: #ff4200;
+	background: #3500b3;
 }
 .test_slider_nav:hover i
 {
@@ -1132,7 +1140,7 @@ section
 .test_slider_nav i
 {
 	font-size: 18px;
-	color: #ff4200;
+	color: #3500b3;
 }
 .test_slider_nav_left
 {
@@ -1335,4 +1343,20 @@ section
 .cr p
 {
 	margin-bottom: 0px;
+}
+
+/**
+Minhas mudanças no contaner projeto amazom
+***/
+
+.back-contaner{
+	background-color: #6300ee3f;
+	width: 100%;
+	height: 100%;
+}
+#icon-produtos{
+	margin:  0px auto;
+}
+.back-end{
+	background-color: #0b103385;
 }
