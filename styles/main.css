@@ -497,5 +497,13 @@ iframe {
   }
 }
 
-
+.home-login{
+  border-radius: 10px; 
+  background-color:#CA99FF;
+  color:  #FEF0FF;
+}.home-login:hover{
+  transition: 900ms;
+  background-color:#6200ee;
+  color:#5B297F;
+}
 
