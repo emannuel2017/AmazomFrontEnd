@@ -222,7 +222,7 @@ section
 {
 	width: 187px;
 	height: 66px;
-	background: #ff4200;
+	background: #7700ff;
 	overflow: hidden;
 }
 .line_button
@@ -772,7 +772,7 @@ section
 }
 
 /*********************************
-7. Elements Content
+6.9. Elements Content
 *********************************/
 
 .elements_content
@@ -793,6 +793,19 @@ section
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
+}
+/*********************************
+7.0 Elements - visualização do produto
+*********************************/
+.element_img{
+
+
+}
+
+p.element_text{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25%;
+	text-align: right;
 }
 
 /*********************************
