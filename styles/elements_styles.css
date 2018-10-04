@@ -113,7 +113,7 @@ p a:hover::after
 ::selection
 {
 	background: #fde0db;
-	color: #ff4200;
+	color: #3500b3;
 }
 p::selection
 {
@@ -316,6 +316,7 @@ section
 .logo_container
 {
 	flex-basis: 50%;
+	margin-top: 3%;
 }
 .logo
 {
@@ -334,12 +335,12 @@ section
 	position: absolute;
 	top: 0;
 	left: -5px;
-	color: #ff4200;
+	color: #3500b3;
 	z-index: -1;
 }
 .logo span:last-of-type
 {
-	color: #ff4200;
+	color: #3500b3;
 }
 
 /*********************************
@@ -384,7 +385,7 @@ section
 }
 .nav_items li.active
 {
-	background: #ff4200;
+	background: #3500b3;
 }
 .nav_items li.active a
 {
@@ -392,7 +393,7 @@ section
 }
 .nav_items li:hover
 {
-	background: #ff4200;
+	background: #3500b3;
 }
 .nav_items li:hover a
 {
@@ -580,7 +581,7 @@ section
 	position: absolute;
 	top: -1px;
 	left: -5px;
-	color: #ff4200;
+	color: #3500b3;
 	z-index: -1;
 }
 .fs_menu_list li a > span::after
@@ -626,11 +627,11 @@ section
 .fs_social li i
 {
 	font-size: 13px;
-	color: rgba(255,66,0,0.6);
+	color:#3500b3;
 }
 .fs_social li:hover i
 {
-	color: rgba(255,66,0,1);
+	color:#3500b3;
 }
 
 /*********************************
@@ -644,7 +645,7 @@ section
 	right: 0px;
 	width: auto;
 	height: 74px;
-	background: #ff4200;
+	background: #3500b3;
 	z-index: 11;
 	padding-right: 38px;
 	padding-left: 45px;
@@ -698,7 +699,7 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	color: #ff0000;
+	color: #3500b3;
 	opacity: 0.32;
 }
 .section_title h2::before
@@ -819,15 +820,15 @@ p.element_text{
 .border_button
 {
 	background: transparent;
-	border: solid 2px #ff4200;
+	border: solid 2px #3500b3;
 }
 .border_button a
 {
-	color: #ff4200;
+	color: #3500b3;
 }
 .border_button a svg
 {
-	fill: #ff4200;
+	fill: #3500b3;
 }
 .border_button a::after
 {
@@ -837,7 +838,7 @@ p.element_text{
 	left: -70px;
 	width: 60px;
 	height: 200%;
-	background: rgba(255,66,0,0.1);
+	background: #3500b3;
 	content: '';
 	-webkit-transform: rotate(12.5deg);
 	-moz-transform: rotate(12.5deg);
@@ -937,9 +938,9 @@ p.element_text{
 	width: 62px;
 	height: 100%;
 	content: '+';
-	border: solid 2px #ff4200;
+	border: solid 2px #3500b3;
 	font-size: 18px;
-	color: #ff4200;
+	color: #3500b3;
 	font-weight: 600;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -953,7 +954,7 @@ p.element_text{
 }
 .accordion:hover::after
 {
-	background: #ff4200;
+	background: #3500b3;
 	color: #FFFFFF;
 }
 .accordion_panel
@@ -1036,7 +1037,7 @@ p.element_text{
 	left: 0;
 	width: 39px;
 	height: 2px;
-	background: #ff4200;
+	background: #3500b3;
 	content: '';
 }
 .milestone_text
